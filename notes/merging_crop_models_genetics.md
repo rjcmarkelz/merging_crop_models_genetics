@@ -13,3 +13,33 @@ See Drawings in Notebook.
 
 ## Day 2
 Overview of the basic genetic parameterization of the DSSAT model.
+
+## Day 3 
+Parameter estimation for genotype specific effects.
+
+It appears that most of the models are parametrized step by step manually. There are better ways to do this in an automated ways. 
+
+GSP- given genotype would give certain response for the genotype across environments.
+
+There could be a number of parameter values for interacting parameters (e.g. leaf number and photosynthesis), that give the same output from the model (e.g pod size). This is called undefinability or equifinality. 
+
+Now moving into Bayesian stats for parameter estimation for GSPs. Currently using bayesian methods to get an estimate of the mean. Parameter estimation using basic priors to constrain the estimates.
+
+1. Generate vector of candidate parameter values (theta)
+2. Simulate crop growth model with theta
+3. Calculate the log-liklihood using the prior distribution and measured data
+4. Calculate the acceptance/rejection ratio.
+5. Sample u = updata theta according to: 
+
+### HPC intro
+50,000 cores at the UFL facility. 
+
+
+
+
+
+
+
+
+
+
