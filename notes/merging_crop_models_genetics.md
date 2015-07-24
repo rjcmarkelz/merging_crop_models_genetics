@@ -35,6 +35,9 @@ Now moving into Bayesian stats for parameter estimation for GSPs. Currently usin
 50,000 cores at the UFL facility. 
 
 
+### Mixed models for genetics
+
+
 
 
 
